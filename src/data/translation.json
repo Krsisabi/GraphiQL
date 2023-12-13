@@ -1,14 +1,126 @@
 {
   "en": {
-    "welcome": "Welcome!",
+    "welcome": "Welcome to GraphiQL!",
     "signin": "Sign In",
     "signup": "Sign Up",
-    "logout": "Log out"
+    "logout": "Log out",
+    "404": "Page not found",
+    "gotomain": "Go to main",
+    "settings": "Settings",
+    "applicationDevelopers": "Application Developers",
+    "languageSetting": "Language",
+    "languageSettingDescription": "Choose the current language of the App",
+    "themeSetting": "Theme",
+    "themeSettingDescription": "Adjust how the interface looks like",
+    "languageToggle": [
+      {
+        "name": "En",
+        "value": "en"
+      },
+      {
+        "name": "Ru",
+        "value": "ru"
+      }
+    ],
+    "themeToggle": [
+      { "name": "Dark", "value": "dark" },
+      { "name": "Light", "value": "light" }
+    ]
   },
   "ru": {
-    "welcome": "Добро пожаловать!",
-    "signin": "Войти",
-    "signup": "Зарегистрироваться",
-    "logout": "Выйти"
+    "welcome": "Добро пожаловать в GraphiQL!",
+    "signin": "Вход",
+    "signup": "Регистрация",
+    "logout": "Выход",
+    "404": "Страница не найдена",
+    "gotomain": "На главную",
+    "settings": "Настройки",
+    "languageSetting": "Язык",
+    "languageSettingDescription": "Выберите текущий язык приложения",
+    "themeSetting": "Тема",
+    "themeSettingDescription": "Настройте как будет выглядеть интерфейс",
+    "languageToggle": [
+      {
+        "name": "Англ",
+        "value": "en"
+      },
+      {
+        "name": "Рус",
+        "value": "ru"
+      }
+    ],
+    "themeToggle": [
+      { "name": "Темная", "value": "dark" },
+      { "name": "Светлая", "value": "light" }
+    ],
+    "submit": "Отправить",
+    "placeholders": ["Введите Эл. почту", "Введите Пароль", "Повторите Пароль"],
+    "variables": "Переменные",
+    "headers": "Заголовки",
+    "endpoint": "Конечная точка",
+    "error": "Неправильная конечная точка",
+    "projectInfo": [
+      "Платформа предоставляет вам уникальные возможности взаимодействия с GraphQL API. Здесь вы можете легко экспериментировать с различными конечными точками, вводить запросы, управлять переменными и заголовками, а затем наслаждаться результатами вашего труда.",
+
+      "Присоединяйтесь к нам, и давайте вместе раскроем всю магию GraphQL. GraphiQL Playground - это ваш надежный партнер в изучении и использовании GraphQL API. Наслаждайтесь путешествием по функциональности GraphQL с легкостью и удовольствием!",
+
+      "Создано при поддержке The Rolling Scopes School, этот проект с гордостью выражает благодарность за поддержку от RS School - ведущего учебного заведения, предоставляющего образовательные программы, ориентированные на разработчиков, абсолютно бесплатно. Проект является завершением курса по React."
+    ],
+    "schema": {
+      "email": {
+        "required": "Требуется электронная почта",
+        "email": "Невалидная эл. почта (example@mail.com)"
+      },
+      "password": {
+        "required": "Требуется пароль",
+        "whitespace": "Пароль не должен содержать пробелы",
+        "letter": "Пароль должен содержать минимум одну букву",
+        "number": "Пароль должен содержать минимум одну цифру",
+        "symbol": "Пароль должен содержать хотя бы один символ",
+        "length": "Пароль должен содержать минимум 8 символов"
+      },
+      "confirm": {
+        "required": "Требуется подтверждение пароля",
+        "match": "Пароли должны совпадать"
+      }
+    },
+    "notifications": {
+      "signinFailed": {
+        "title": "Не удалось войти!",
+        "text": "Пожалуйста, проверьте данные и попробуйте снова"
+      },
+      "signupFailed": {
+        "title": "Ошибка регистрации!",
+        "text": "Возможно, вы уже зарегистрированы.\nПожалуйста, проверьте данные и попробуйте снова"
+      },
+      "prettifyingFailed": {
+        "title": "Ошибка форматирования!",
+        "textClosingParenthesis": "Обнаружена лишняя закрывающая скобка",
+        "textOpeningParenthesis": "Обнаружена лишняя открывающая скобка"
+      },
+      "fetchingFailed": {
+        "title": "Ошибка запроса",
+        "text": "Ошибка получения данных. Проверьте данные и повторите попытку"
+      },
+      "requestFailed": {
+        "title": "Запрос неверен!",
+        "textVariables": "Пожалуйста, убедитесь, что редактор переменных содержит правильные скобки и синтаксис.",
+        "textHeaders": "Пожалуйста, убедитесь, что редактор заголовков содержит правильные скобки и синтаксис."
+      }
+    },
+    "documentationExplorer": "Обозреватель документации",
+    "tooltip": {
+      "docs": "Документация",
+      "play": "Выполнить запрос",
+      "prettify": "Форматировать"
+    },
+    "docs": {
+      "rootType": "Корневые типы",
+      "desc": "GraphQL-схема предоставляет корневой тип для каждого вида операции",
+      "noDesc": "Нет описания",
+      "kind": "Тип",
+      "back": "Назад к",
+      "schema": "Schema"
+    }
   }
 }
