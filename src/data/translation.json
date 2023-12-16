@@ -26,6 +26,8 @@
       { "name": "Dark", "value": "dark" },
       { "name": "Light", "value": "light" }
     ],
+    "submit": "Submit",
+    "placeholders": ["Enter Email", "Enter Password", "Confirm Password"],
     "variables": "Variables",
     "headers": "Headers",
     "endpoint": "Endpoint"

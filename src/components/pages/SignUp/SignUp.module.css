@@ -1,0 +1,13 @@
+.form {
+  width: fit-content;
+}
+
+.submit {
+  font-size: var(--link-font-size);
+  background-color: var(--pink-color);
+  padding: var(--link-padding);
+  color: var(--link-color);
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto;
+}
