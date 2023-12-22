@@ -37,7 +37,8 @@
       "GraphiQL Playground is designed with your comfort and understanding in mind. We offer an intuitive interface that will make exploring the power of GraphQL a breeze. Your queries will become simpler, and the results more accessible.",
 
       "Join us, and let's uncover the magic of GraphQL together. GraphiQL Playground is your reliable partner in learning and utilizing GraphQL API. Enjoy the journey through GraphQL functionality with ease and pleasure!"
-    ]
+    ],
+    "documentationExplorer": "Documentation Explorer"
   },
   "ru": {
     "welcome": "Добро пожаловать в GraphiQL!",
