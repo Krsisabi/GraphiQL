@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className={styles.footer}>
+    <footer data-testid="footer" className={styles.footer}>
       <span> &copy; 2023 - GraphiQL</span>
       <a className={styles.rsLogo} href="https://rs.school/react/" target="_blank" rel="noreferrer" style={stylesIcon} />
     </footer>
