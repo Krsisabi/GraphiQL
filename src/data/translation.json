@@ -65,6 +65,11 @@
       "signupFailed": {
         "title": "Signup Failed!",
         "text": "Maybe you’re already registered.\nPlease, recheck your data and try again"
+      },
+      "prettifyingFailed": {
+        "title": "Prettifying Failed!",
+        "textClosingParenthesis": "Extra closing parenthesis detected",
+        "textOpeningParenthesis": "Extra opening parenthesis detected"
       }
     },
     "documentationExplorer": "Documentation Explorer"
