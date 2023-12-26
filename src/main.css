@@ -28,13 +28,13 @@ html {
 }
 
 body {
-  padding-top: 150px;
   background-color: var(--violet-color);
   color: #ffff;
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top right;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 ul {
