@@ -23,7 +23,6 @@ const Layout = () => {
             minHeight: '100vh',
             display: 'flex',
             justifyContent: 'space-between',
-            alignItems: 'center',
             flexDirection: 'column',
             paddingTop: '120px',
           }}
